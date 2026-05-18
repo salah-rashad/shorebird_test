@@ -18,7 +18,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: Scaffold(
+        appBar: AppBar(title: Text("Shorebird works")),
+        body: Center(child: Text('Helloooooooooooooo!')),
+      ),
       builder: (context, child) {
         if (child != null && !AppConfig.instance.isProduction) {
           return FlavorBanner(child: child);
