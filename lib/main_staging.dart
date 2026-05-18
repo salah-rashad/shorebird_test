@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shorebird_test/widgets/flavor_banner.dart';
 
 import 'app_config.dart';
 import 'main.dart' show MainApp;
