@@ -10,7 +10,5 @@ void main() {
     appName: 'ShorebirdTest Stg',
     apiBaseUrl: 'https://stg-api.example.com',
   );
-  runApp(
-    const MainApp(),
-  );
+  runApp(const MainApp());
 }
